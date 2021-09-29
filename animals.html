@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Playing with Animals</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <title>Playing with Animals</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 
 </head>
+<style>
+    .row {
+        background-color: khaki;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
+</style>
+
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Plane.html">Plane</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="train.html">Train</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1>Animals by Sai Kiran Reddy Gaddam</h1>
-    <p>GADDAM</p>  
     <div class="container">
         <div class="row">
             <div class="col-sm-2">G</div>
@@ -26,17 +62,164 @@
             <div class="col-sm-2">M</div>
         </div>
         <div class="row">
-            <div class="col-md">GIRAFFEE</div>
-            <div class="col-md">ANTELOPE</div>
-            <div class="col-md">DOG</div>
-            <div class="col-md">DEER</div>
-            <div class="col-md">ARMADILLO</div>
+            <div class="col-md">GALAPAGOS PENGUIN</div>
+            <div class="col-md">AFRICAN CIVET</div>
+            <div class="col-md">DARWIN FROG</div>
+            <div class="col-md">DAPPLE DACHSHUND</div>
+            <div class="col-md">AFGHAN HOUND</div>
             <div class="col-md">MONKEY</div>
         </div>
-        <p>Letters break first</p>
+        <h4>When I reduce my browser size both letters and animals row breaks, because the length of animals name is
+            limited</h4>
 
+        <div class="container">
+            <img src="images/DARWIN FROG.jpg" alt="DARWIN FROG" width="400" height="400">
+            <img src="images/GALAPAGOS PENGUIN.jpg" alt="GALAPAGOS PENGUIN" width="400" height="400">
+            <img src="images/MONKEY.jpg" alt="MONKEY" width="400" height="400">
+        </div>
+        <div class="container">
+            <img src="images/DARWIN FROG.jpg" class="img-thumbnail" alt="DARWIN FROG" width="400" height="400">
+            <img src="images/GALAPAGOS PENGUIN.jpg" class="img-thumbnail" alt="GALAPAGOS PENGUIN" width="400"
+                height="400">
+            <img src="images/MONKEY.jpg" class="img-thumbnail" alt="MONKEY" width="400" height="400">
+        </div>
+        <table class="table table-bordered caption-top"
+            style="width:50%; border: solid rgb(156, 129, 129); border-collapse: collapse;">
+            <caption>List of Animals</caption>
+            <thead>
+                <tr style="background-color: lavender;">
+                    <th scope="col">Letter</th>
+                    <th scope="col">Animals</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Car</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">V</th>
+                    <td>GALAPAGOS PENGUIN</td>
+                    <td>Guwahati</td>
+                    <td>General Motors</td>
+                </tr>
+                <tr>
+                    <th scope="row">A</th>
+                    <td>AFRICAN CIVET</td>
+                    <td>Austin</td>
+                    <td>Audi</td>
+                </tr>
+                <tr>
+                    <th scope="row">I</th>
+                    <td>DARWIN FROG</td>
+                    <td>Dallas</td>
+                    <td>Dodge</td>
+                </tr>
+                <tr>
+                    <th scope="row">D</th>
+                    <td>DAPPLE DACHSHUND</td>
+                    <td>Dubai</td>
+                    <td>Dacia</td>
+                </tr>
+                <tr>
+                    <th scope="row">Y</th>
+                    <td>AFGHAN HOUND</td>
+                    <td>Arkansas</td>
+                    <td>ASTON MARTIN</td>
+                </tr>
+                <tr>
+                    <th scope="row">A</th>
+                    <td>MONKEY</td>
+                    <td>Melbourne</td>
+                    <td>Mustang</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <button type="button" class="btn" style="background-color: red;">G</button>
+        <button type="button" class="btn" style="background-color: red;">A</button>
+        <button type="button" class="btn" style="background-color: red;">D</button>
+        <button type="button" class="btn" style="background-color: red;">D</button>
+        <button type="button" class="btn" style="background-color: red;">A</button>
+        <button type="button" class="btn" style="background-color: red;">M</button>
+        <div class="container">
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-success">G</button>
+                <button type="button" class="btn btn-success">M</button>
+                <button type="button" class="btn btn-success">A</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-warning">D</button>
+                <button type="button" class="btn btn-warning">A</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-danger">D</button>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" style="background-color: goldenrod;" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Plane.html">To Plane</a>
+                <a class="dropdown-item" href="train.html">To Train</a>
+            </div>
+        </div>
 
-    </div>
+        <form style="width: 30%;">
+            <div class="form-group">
+                <label for="emailAddress" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group">
+                <label for="forAnimalName" class="form-label">Animal</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Animal">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="forCheckBox">
+                <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="container">
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/DARWIN FROG.jpg" class="card-img-top" alt="DARWIN FROG">
+                    <div class="card-body">
+                        <h5 class="card-title">DARWIN FROG</h5>
+                        <p class="card-text">Darwin's Frog (Rhinoderma darwinii), also called the southern Darwin's
+                            frog,
+                            is a rhinodermatid frog native to the forest streams of Chile and Argentina.</p>
+                        <a href="https://en.wikipedia.org/wiki/Darwin%27s_frog" class="btn btn-primary">For
+                            reference</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/GALAPAGOS PENGUIN.jpg" class="card-img-top" alt="GALAPAGOS PENGUIN">
+                    <div class="card-body">
+                        <h5 class="card-title">GALAPAGOS PENGUIN</h5>
+                        <p class="card-text">The Galápagos penguin (Spheniscus mendiculus) is a penguin endemic to the
+                            Galápagos Islands, Ecuador.
+                        </p>
+                        <a href="https://en.wikipedia.org/wiki/Galapagos_penguin" class="btn btn-primary">For
+                            reference</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/MONKEY.jpg" class="card-img-top" alt="MONKEY">
+                    <div class="card-body">
+                        <h5 class="card-title">MONKEY</h5>
+                        <p class="card-text">Monkey is a common name that may refer to most mammals of the infraorder
+                            Simiiformes,
+                            also known as the simians.</p>
+                        <a href="https://en.wikipedia.org/wiki/Monkey" class="btn btn-primary">For
+                            reference</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 </body>
+
 </html>
